@@ -1,0 +1,64 @@
+*{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1vw;
+}
+.card{
+    margin-left: 35vw;
+    margin-top: 4vw;
+    padding: 2vw;
+    width: 25vw;
+    height: auto 35vw;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    box-shadow: 1vw 1vw 1vw 0 black;
+    background-image: linear-gradient(to right,rgb(255, 255, 116),rgb(181, 255, 85));
+}
+label{
+    padding: 0.5vw;
+    font-weight: bold;
+}
+input[type=text]{
+    font-weight: bold;
+    color: gray;
+    width: 75%;
+    height: 2vw;
+}
+input[type=number]{
+    width: 25%;
+    height: 2vw;
+    font-weight: bold;
+    color: gray;
+}
+input{
+    border: 1px solid orangered;
+    border-radius: 0.5vw;
+    margin: 0.5vw;
+    text-align: center;
+}
+select{
+    width: 45%;
+    height: 2.5vw;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    background-color: white;
+    border: 1px solid orangered;
+}
+button{
+    padding: 1vw;
+    color: white;
+    background-color: rgb(34, 189, 34);
+    border-radius: 0.5vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(43, 43, 43);
+    color: rgb(34, 189, 34);
+    font-weight: bold;
+}
+#Error{
+    color: red;
+    margin: 0.5vw;
+    font-size: 0.9vw;
+}
